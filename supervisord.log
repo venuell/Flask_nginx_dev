@@ -1,0 +1,11 @@
+2020-01-09 14:14:56,315 CRIT Supervisor running as root (no user in config file)
+2020-01-09 14:14:56,322 INFO daemonizing the process
+2020-01-09 14:14:56,323 INFO supervisord started with pid 22690
+2020-01-09 14:14:56,323 INFO spawned: 'flaskblog' with pid 22691
+2020-01-09 14:14:57,639 INFO success: flaskblog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-01-09 14:18:16,619 INFO received SIGCLD indicating a child quit
+2020-01-09 14:18:16,628 INFO received SIGCLD indicating a child quit
+2020-01-09 14:18:16,846 INFO exited: flaskblog (exit status 0; expected)
+2020-01-09 14:18:16,846 INFO received SIGCLD indicating a child quit
+2020-01-09 14:18:16,847 INFO spawned: 'flaskblog' with pid 23415
+2020-01-09 14:18:18,076 INFO success: flaskblog entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

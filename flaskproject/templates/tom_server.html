@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="columns is-desktop" align="left">
+  <div class="column"></div>
+  <div class="column is-half-desktop">
+    <h2 class="is-size-3">BigTest Tomcat Instance</h2>
+
+    <form method="post" action="{{ url_for('tom_server') }}">
+      <div class="field">
+        <label class="label" for="servers"> Enter ',' delimited Server name</label>
+        <div class="control">
+          <input name="servers" type="input" class="input"></input>
+        </div>
+      </div>
+
+
+     <div align="left">
+
+          <input type="submit" value="status" name="status" class="button is-link" />
+
+
+          <input type="submit" value="start"  name="status"  class="button is-link" />
+
+
+          <input type="submit" value="restart"  name="status"  class="button is-link" />
+
+
+          <input type="submit" value="stop"  name="status"  class="button is-link" />
+          </div>
+       </br>
+       </br>
+       <div>
+       <label class="label" for="servers"> AWR and Snapshot</label>
+       </br>
+       <div class="field" align="left">
+        <label class="label" for="servers"> Enter ',' delimited begin and end snap id</label>
+        <div class="control">
+       <div class="control">
+          <input name="snap_ids" type="input" class="input" ></input>
+        </div>
+          <input type="submit" value="snap_id"  name="status"  class="button is-link" />
+          <input type="submit" value="awr_report"  name="status"  class="button is-link" />
+          <a href="{{ url_for('download') }}">Download AWR</a>
+        </div>
+        </div>
+    </form>
+
+  </div>
+  <div class="column"></div>
+</div>
+
+{% endblock %}
+        

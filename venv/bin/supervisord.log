@@ -1,0 +1,51 @@
+2020-01-10 01:06:24,600 CRIT Supervisor running as root (no user in config file)
+2020-01-10 01:06:24,607 INFO daemonizing the process
+2020-01-10 01:06:24,608 INFO supervisord started with pid 4713
+2020-01-10 01:06:24,609 INFO spawned: 'flaskblog' with pid 4714
+2020-01-10 01:06:24,895 INFO exited: flaskblog (exit status 3; not expected)
+2020-01-10 01:06:24,895 INFO received SIGCLD indicating a child quit
+2020-01-10 01:06:25,897 INFO spawned: 'flaskblog' with pid 4718
+2020-01-10 01:06:26,184 INFO exited: flaskblog (exit status 3; not expected)
+2020-01-10 01:06:26,184 INFO received SIGCLD indicating a child quit
+2020-01-10 01:06:28,187 INFO spawned: 'flaskblog' with pid 4722
+2020-01-10 01:06:28,477 INFO exited: flaskblog (exit status 3; not expected)
+2020-01-10 01:06:28,477 INFO received SIGCLD indicating a child quit
+2020-01-10 01:06:31,482 INFO spawned: 'flaskblog' with pid 4726
+2020-01-10 01:06:31,770 INFO exited: flaskblog (exit status 3; not expected)
+2020-01-10 01:06:31,770 INFO received SIGCLD indicating a child quit
+2020-01-10 01:06:32,771 INFO gave up: flaskblog entered FATAL state, too many start retries too quickly
+2020-01-10 01:25:40,442 CRIT Supervisor running as root (no user in config file)
+2020-01-10 01:25:40,448 INFO daemonizing the process
+2020-01-10 01:25:40,449 INFO supervisord started with pid 4908
+2020-01-10 01:25:40,450 INFO spawned: 'flaskblog' with pid 4909
+2020-01-10 01:25:40,834 INFO exited: flaskblog (exit status 3; not expected)
+2020-01-10 01:25:40,834 INFO received SIGCLD indicating a child quit
+2020-01-10 01:25:41,836 INFO spawned: 'flaskblog' with pid 4914
+2020-01-10 01:25:42,219 INFO exited: flaskblog (exit status 3; not expected)
+2020-01-10 01:25:42,219 INFO received SIGCLD indicating a child quit
+2020-01-10 01:25:44,222 INFO spawned: 'flaskblog' with pid 4919
+2020-01-10 01:25:44,500 INFO exited: flaskblog (exit status 3; not expected)
+2020-01-10 01:25:44,500 INFO received SIGCLD indicating a child quit
+2020-01-10 01:25:47,504 INFO spawned: 'flaskblog' with pid 4923
+2020-01-10 01:25:47,790 INFO exited: flaskblog (exit status 3; not expected)
+2020-01-10 01:25:47,791 INFO received SIGCLD indicating a child quit
+2020-01-10 01:25:48,792 INFO gave up: flaskblog entered FATAL state, too many start retries too quickly
+2020-01-10 01:27:04,599 CRIT Supervisor running as root (no user in config file)
+2020-01-10 01:27:04,606 INFO daemonizing the process
+2020-01-10 01:27:04,606 INFO supervisord started with pid 4936
+2020-01-10 01:27:04,607 INFO spawned: 'flaskblog' with pid 4937
+2020-01-10 01:27:04,993 INFO exited: flaskblog (exit status 3; not expected)
+2020-01-10 01:27:04,994 INFO received SIGCLD indicating a child quit
+2020-01-10 01:27:05,996 INFO spawned: 'flaskblog' with pid 4942
+2020-01-10 01:27:06,278 INFO exited: flaskblog (exit status 3; not expected)
+2020-01-10 01:27:06,278 INFO received SIGCLD indicating a child quit
+2020-01-10 01:27:08,282 INFO spawned: 'flaskblog' with pid 4946
+2020-01-10 01:27:08,560 INFO exited: flaskblog (exit status 3; not expected)
+2020-01-10 01:27:08,560 INFO received SIGCLD indicating a child quit
+2020-01-10 01:27:11,565 INFO spawned: 'flaskblog' with pid 4950
+2020-01-10 01:27:11,843 INFO exited: flaskblog (exit status 3; not expected)
+2020-01-10 01:27:11,844 INFO received SIGCLD indicating a child quit
+2020-01-10 01:27:12,845 INFO gave up: flaskblog entered FATAL state, too many start retries too quickly
+2020-01-10 08:01:26,035 CRIT received SIGTERM indicating exit request
+2020-01-10 08:01:26,038 CRIT received SIGTERM indicating exit request
+2020-01-10 08:01:26,043 CRIT received SIGTERM indicating exit request

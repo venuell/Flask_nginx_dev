@@ -1,0 +1,6 @@
+
+
+#!/bin/sh
+
+source /root/FlaskProject/venv/bin/activate
+gunicorn -w 5 run:app --daemon
